@@ -22,3 +22,5 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('carrousel-container')
   );
 });
+
+export default Carrousel;
