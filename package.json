@@ -1,0 +1,25 @@
+{
+  "name": "sunnyogi_app",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-react": "^7.23.3",
+    "@hotwired/stimulus": "^3.2.2",
+    "@hotwired/turbo-rails": "^8.0.2",
+    "@rails/webpacker": "5.4.4",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "jquery": "^3.7.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "webpack-dev-server": "^3"
+  }
+}
